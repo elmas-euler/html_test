@@ -9,12 +9,17 @@
   "Hello, World!";
     aaaa
   </p>
+  <h1 id="test"></h1>
   <button id="button">This is a button.</button>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
     $('button').click( () => {
     $('p').css('color', 'red');
     })
+  </script>
+  <script>
+    const test = require('./test.js')
+    document.getElementById('test') = add(3)(4)
   </script>
 </body>
 </html>
